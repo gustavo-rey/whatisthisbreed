@@ -173,7 +173,7 @@ export function CameraScreen({onCapture, onBack}: CameraScreenProps) {
                 <p className="text-white font-bold text-lg mb-6">{t("camera.title")}</p>
 
                 {/* Circular Camera View */}
-                <div className="relative w-96 h-96 rounded-full overflow-hidden border-4 border-white shadow-2xl">
+                <div className="relative w-80 h-80 rounded-full overflow-hidden border-4 border-white shadow-2xl">
                     <video
                         ref={videoRef}
                         autoPlay

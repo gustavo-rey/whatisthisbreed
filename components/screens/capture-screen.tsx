@@ -23,7 +23,7 @@ export function CaptureScreen({imageData, onRetake, onDiscover, onBack}: Capture
 
             <main className="flex-1 flex flex-col items-center justify-center px-2 py-24">
                 {/* Circular Photo Preview */}
-                <div className="relative w-96 h-96 rounded-full overflow-hidden border-4 border-white shadow-2xl">
+                <div className="relative w-80 h-80 rounded-full overflow-hidden border-4 border-white shadow-2xl">
                     <img
                         src={imageData}
                         alt="Captured"
