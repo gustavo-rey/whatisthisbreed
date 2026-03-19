@@ -169,7 +169,7 @@ export function CameraScreen({onCapture, onBack}: CameraScreenProps) {
                 <LanguageSelector/>
             </header>
 
-            <main className="flex-1 flex flex-col items-center justify-center px-2 py-24">
+            <main className="flex-1 flex flex-col items-center justify-start px-2 py-24 mt-52">
                 <p className="text-white font-bold text-lg mb-6">{t("camera.title")}</p>
 
                 {/* Circular Camera View */}
